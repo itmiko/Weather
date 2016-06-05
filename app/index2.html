@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test</title>
+	<link rel="stylesheet" href="css/bundle.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- <link rel="stylesheet" href="css/media.css">--></head>
+<body>
+	<header>Weather Forecast</header>
+	<div class="container">
+		<main>
+			<span>Select city:</span>
+			<select id="city">
+				<option href="index.html">Kyiv</option>
+				<option href="index2.html">Lviv</option>
+				<option href="index3.html">Odesa</option>
+			</select>
+			<br>
+			<br>
+			<br>
+			<h2>Temperature</h2>
+		</main>
+	</div>
+	<div class="container canvas">
+		<canvas id="lviv" width="400" height="150"></canvas>
+	</div>
+	<div class="container data">
+		<h2>Additional Data</h2>
+		<div class="col">
+			<table>
+				<tr>
+					<th colspan="2">Weather Conditions</th>
+					<tr>
+						<td>May 12, 03:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 12, 06:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 12, 09:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 12, 12:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 12, 15:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 12, 18:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 12, 21:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 13, 00:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 13, 03:00</td>
+						<td>Clouds</td>
+					</tr>
+					<tr>
+						<td>May 13, 06:00</td>
+						<td>Rain</td>
+					</tr>
+				</tr>
+			</table>
+		</div>
+		<div class="col">
+			<table>
+				<tr>
+					<th colspan="2">Humidity</th>
+					<tr>
+						<td>May 12, 03:00</td>
+						<td>34%</td>
+					</tr>
+					<tr>
+						<td>May 12, 06:00</td>
+						<td>34%</td>
+					</tr>
+					<tr>
+						<td>May 12, 09:00</td>
+						<td>44%</td>
+					</tr>
+					<tr>
+						<td>May 12, 12:00</td>
+						<td>36%</td>
+					</tr>
+					<tr>
+						<td>May 12, 15:00</td>
+						<td>45%</td>
+					</tr>
+					<tr>
+						<td>May 12, 18:00</td>
+						<td>45%</td>
+					</tr>
+					<tr>
+						<td>May 12, 21:00</td>
+						<td>45%</td>
+					</tr>
+					<tr>
+						<td>May 13, 00:00</td>
+						<td>54%</td>
+					</tr>
+					<tr>
+						<td>May 13, 03:00</td>
+						<td>55%</td>
+					</tr>
+					<tr>
+						<td>May 13, 06:00</td>
+						<td>56%</td>
+					</tr>
+				</tr>
+			</table>
+		</div>
+
+		<div class="col">
+			<table>
+				<tr>
+					<th colspan="2">Wind speed</th>
+					<tr>
+						<td>May 12, 03:00</td>
+						<td>1.00 m/s</td>
+					</tr>
+					<tr>
+						<td>May 12, 06:00</td>
+						<td>0.86 m/s</td>
+					</tr>
+					<tr>
+						<td>May 12, 09:00</td>
+						<td>1.00 m/s</td>
+					</tr>
+					<tr>
+						<td>May 12, 12:00</td>
+						<td>1.11 m/s</td>
+					</tr>
+					<tr>
+						<td>May 12, 15:00</td>
+						<td>1.13 m/s</td>
+					</tr>
+					<tr>
+						<td>May 12, 18:00</td>
+						<td>1.06 m/s</td>
+					</tr>
+					<tr>
+						<td>May 12, 21:00</td>
+						<td>1.21 m/s</td>
+					</tr>
+					<tr>
+						<td>May 13, 00:00</td>
+						<td>1.29 m/s</td>
+					</tr>
+					<tr>
+						<td>May 13, 03:00</td>
+						<td>1.26 m/s</td>
+					</tr>
+					<tr>
+						<td>May 13, 06:00</td>
+						<td>1.57 m/s</td>
+					</tr>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script src="js/common.js"></script>
+	<script src="js/common1.js"></script>
+	<script src="js/common2.js"></script>
+	<script src="js/json.js"></script>
+</body>
+</html>

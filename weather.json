@@ -1,0 +1,106 @@
+{
+    "kyiv": {
+        "date": [{
+            "May 12, 03:00": {
+                "temperature": 11
+            },
+            "May 12, 06:00": {
+                "temperature": 10
+            },
+            "May 12, 09:00": {
+                "temperature": 14
+            },
+            "May 12, 12:00": {
+                "temperature": 16
+            },
+            "May 12, 15:00": {
+                "temperature": 19
+            },
+            "May 12, 18:00": {
+                "temperature": 13
+            },
+            "May 12, 21:00": {
+                "temperature": 13
+            },
+            "May 13, 00:00": {
+                "temperature": 11
+            },
+            "May 13, 03:00": {
+                "temperature": 10
+            },
+            "May 13, 06:00": {
+                "temperature": 10
+            }
+        }]
+    },
+    "lviv": {
+        "date": [{
+            "May 12, 03:00": {
+                "temperature": 11
+            },
+            "May 12, 06:00": {
+                "temperature": 10
+            },
+            "May 12, 09:00": {
+                "temperature": 14
+            },
+            "May 12, 12:00": {
+                "temperature": 16
+            },
+            "May 12, 15:00": {
+                "temperature": 19
+            },
+            "May 12, 18:00": {
+                "temperature": 13
+            },
+            "May 12, 21:00": {
+                "temperature": 13
+            },
+            "May 13, 00:00": {
+                "temperature": 11
+            },
+            "May 13, 03:00": {
+                "temperature": 10
+            },
+            "May 13, 06:00": {
+                "temperature": 10
+            }
+        }]
+    },
+    "odesa": {
+        "date": [{
+            "May 12, 03:00": {
+                "temperature": 11
+            },
+            "May 12, 06:00": {
+                "temperature": 10
+            },
+            "May 12, 09:00": {
+                "temperature": 14
+            },
+            "May 12, 12:00": {
+                "temperature": 16
+            },
+            "May 12, 15:00": {
+                "temperature": 19
+            },
+            "May 12, 18:00": {
+                "temperature": 13
+            },
+            "May 12, 21:00": {
+                "temperature": 13
+            },
+            "May 13, 00:00": {
+                "temperature": 11
+            },
+            "May 13, 03:00": {
+                "temperature": 10
+            },
+            "May 13, 06:00": {
+                "temperature": 10
+            }
+        }]
+    }
+}
+
+   
